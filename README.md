@@ -1,6 +1,6 @@
 # DualSenseCompanion
 
-A basic companion app for the DualSense controller for windows. It will emulator an xbox 360 controller so you can play almost all pc games with your ps5 controller!
+A basic companion app for the DualSense controller for windows. It will emulate an xbox 360 controller so you can play almost all pc games with your ps5 controller!
 
 Features currently working:
 1. Xbox 360 controller emulation.
