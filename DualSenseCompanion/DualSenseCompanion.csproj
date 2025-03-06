@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.26100.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>Program</StartupObject>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>icon_6Q2_icon.ico</ApplicationIcon>
+    <PackageId>DualSenseCompanion</PackageId>
+    <Title>DualSenseCompanion</Title>
+    <Authors>Sar1911</Authors>
+    <Company>Sar1911</Company>
+    <Product>DualSenseCompanion</Product>
+    <Description>The only app you'll need for PC gaming with the PS5 controller.</Description>
+    <AssemblyName>DualSenseCompanion</AssemblyName>
+    <RootNamespace>DualSenseCompanion</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon_6Q2_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HidSharp" Version="2.1.0" />
+    <PackageReference Include="Nefarius.ViGEm.Client" Version="1.21.256" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DSToolsIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
