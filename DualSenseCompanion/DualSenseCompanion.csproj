@@ -16,6 +16,7 @@
     <Description>The only app you'll need for PC gaming with the PS5 controller.</Description>
     <AssemblyName>DualSenseCompanion</AssemblyName>
     <RootNamespace>DualSenseCompanion</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,7 +25,11 @@
 
   <ItemGroup>
     <PackageReference Include="HidSharp" Version="2.1.0" />
+    <PackageReference Include="Nefarius.Drivers.HidHide" Version="2.4.1" />
     <PackageReference Include="Nefarius.ViGEm.Client" Version="1.21.256" />
+    <PackageReference Include="System.Management" Version="9.0.3" />
+    <PackageReference Include="System.Reactive.Windows.Forms" Version="6.0.1" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="9.0.3" />
   </ItemGroup>
 
   <ItemGroup>
